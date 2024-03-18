@@ -12,5 +12,11 @@ plt.xlabel('X-axis')
 plt.ylabel('Y-axis')
 plt.title('Simple Line Plot')
 
-# Display the plot
-plt.show()
+# Save the plot to a file (you can specify the file format with the file extension)
+plt.savefig('line_plot.png')
+
+# Optionally, you can specify additional parameters such as DPI (dots per inch) for image quality
+# plt.savefig('line_plot.png', dpi=300)
+
+# Close the plot to free up resources
+plt.close()
